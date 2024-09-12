@@ -1,25 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Jyotsan</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Jyotsan-Hamal</title>
 </head>
+
 <body>
-    <div id="header">
-        <div class="container">
-            <nav>
-                <img src="image/Logo.png" class="Logo">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Skills</a></li>
-                </ul>
-            </nav>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>J</span>yotsan <span>H</span>amal</h1>
+          </a>
         </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Services</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello there, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Jyotsan Hamal <span></span></h1>
+        <a href="img/CV.pdf" type="button" class="cta">Visit C.V.</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Service Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Expert<span>i</span>se and Sk<span>i</span>lls</h1>
+        <p style="font-size: 26px;">I am an AI Engineer. I am experienced in Python, Machine learning, C, Java, Deep Learning , Data Cleaning.
+          I have also done some real life project for some company.
+        </p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="img/exp.png" /></div>
+          <h2> Experience</h2>
+          <p>Python Automation Engineer [Intern]</p>
+          <li>Jun 2023 - Nov 2023 6 months</li>
+          <li>Data Extraction : Made a python bot which extracts the Nepal stock
+            exchange stocks data into a csv file. </li>
+            <li>OCR : Used a paddlepaddle OCR which converts Bank statement images
+              into excel sheet.</li>
+              <li>Data Cleaning : Extracted data from different sites which i was able to
+                clean for model training</li>
+
+          
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="img/Skill.png" /></div>
+          <h2>My skills</h2>
+         <li>Python</li>
+         <li>C</li>
+         <li>Deep learning</li>
+         <li>Machine Learning</li>
+         <li>NLP</li>
+         <li>Computer Vision</li>
+         <li>FastAPI</li>
+         <li>Sklearn</li>
+         <li>Jupyter notebook</li>
+         <li>Django</li>
+         <li>Git</li>
+         <li>Flask</li>
+      
+         
+         
+         
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="img/cert.png" /></div>
+          <h2>Certificate</h2>
+         <li><a href="https://certificates.cs50.io/099a35c0-e4cd-4a1e-99c6-19a3252c2b7a.pdf?size=letter">CS50 Introduction to Computer Science - Harvard University</a>  </li>
+         <li><a href="https://www.hackerrank.com/certificates/df3f79458a6c">SQL - HackerRank </a></li>
+         <li><a href="https://www.hackerrank.com/certificates/a82bc6261497">Problem solving - HackerRank </a></li>
+         <li><a href="https://www.hackerrank.com/certificates/7cec5d627879">Python - HackerRank</a></li>
+          
+          <li><a href="https://www.freecodecamp.org/certification/jyotsan/machine-learning-with-python-v7">Machine Learning with Python</a></li>
+         <li><a href="img/subiz_.pdf">Intern at Subiz Innovations </a></li>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- End Service Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Recent <span>Projects</span></h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1><a href="https://github.com/Jyotsan-Hamal/Face-recognition-based-attendance-system">Face-recognition-based-attendance-system</a></h1>
+            
+            <p>As a backend developer, I
+              played a pivotal role in the development of a Face Recognition Based
+              Attendance System. My responsibilities included real-time face recognition
+              implementation. I contributed to the project's success by managing databases,
+              ensuring seamless data flow, and integrating various components. This System
+              features an admin dashboard for efficient monitoring of student attendance..</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/heh.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1><a href="https://github.com/Jyotsan-Hamal/ML-projects/tree/main/Movie%20Recommendation%20System">Movie Recommendation System</a></h1>
+            
+            <p>This project is a movie recommendation system based on content filtering, which uses Cosine Similarity to recommend movies to users based on their preferences. The dataset used for this project is the TMDB 5000 Movies Dataset, which
+               contains information about over 5,000 movies.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/dash2.png" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1><a href="https://github.com/Jyotsan-Hamal/Health-Diagnose-System">Health-Diagnose-System</a></h1>
+            
+            <p>In the Health Diagnose System project, I took a
+              leading role as a developer, utilizing Tensorflow, Pandas, Flask, and Numpy. My
+              primary contribution involved training a neural network to effectively classify 43
+              diseases based on a selection of symptoms provided by users from a pool of
+              103 symptoms. This project showcases my expertise in machine learning and
+              backend development for healthcare applications.
+              
+              </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/proj.webp" alt="img">
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1><a href="https://github.com/Jyotsan-Hamal/BERT">Fine-tune BERT Transformer</a></h1>
+            <p>In this project, I was able to fine-tune ‘bertlarge-case’ model in Game of throne book raw text data using Masked
+              Language Modeling .My main aim for this project was to see the difference in
+              fine-tune BERT embeddings vs embeddings of  ‘bert-large-case’ model will
+              the Euclidean distance of both embedding for similar character be any
+              different.</p>
+          </div>
+
+          <div class="project-img">
+            <img src="./img/bert.jpg" alt="img">
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-info">
+            <h1><a href="https://github.com/Jyotsan-Hamal/Exopy">Exopy</a></h1>
+            
+            <p> It’s an OTT platform like Netflix which i made from Tmdb API . As a
+              Backend Web project, I utilized Django, a high-level Python web framework, to
+              create a customized movie data platform. This experience highlights my skills in
+              backend development, API integration, and utilizing Python for web
+              applications.
+              </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/jio.png" alt="img">
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-info">
+            <h1><a href="https://github.com/Jyotsan-Hamal/ExoStock-Time-series-Forcasting">ExoStock-Time-series-Forcasting</a></h1>
+            
+            <p> 
+              The "ExoStock Time Series Forecasting" project aims to conduct a comprehensive analysis of historical stock data for Nepal top 30 Stock. Using time series analysis techniques, the project seeks to gain insights into the trends, patterns, and potential future performance of Nabil's stock.
+              </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/predict.png" alt="img">
+          </div>
+        </div>
+
+        <div class="project-item">
+          <div class="project-info">
+            <h1><a href="https://github.com/Jyotsan-Hamal/Book-Recommendation-System">Book-Recommendation-System</a></h1>
+            
+            <p> 
+              This project implements a straightforward book recommendation system based on collaborative filtering. By utilizing cosine similarity between book vectors, it suggests books to users.
+              </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/rec.png" alt="img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/Profile.jpg" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>AI Engineer</h2>
+        <p>My name is Jyotsan Hamal, and I'm a Student who is currently studying BIT at Lincoln University. I 
+          like to research anything that tweaks my interest especially at the fields of NLP, you can check my
+           github repo i have done some projects and research and.... that's all about me</p>
+        <a href="img/CV.pdf" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+977-9824595613</h2>
+                    </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>hamaljyotsan@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Baluwatar, Kathmandu, Nepal</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>J</span>yotsan <span>H</span>amal</h1>
+      </div>
+      <h2>Your Complete Web Solution</h2>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.instagram.com/jyotsan_n/"><img src="img/insta.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.facebook.com/jyotsan.hamal.5"><img src="img/fb.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://github.com/Jyotsan-Hamal"><img src="img/github.png" /></a>
+        </div>
+        <div class="social-item">
+          
+          <a href="https://www.linkedin.com/in/jyotsan-hamal-621317264/"><img src="img/link.png" /></a>
+        </div>
+      </div>
+      <p>Copyright © 2020 Jyotsan. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
 </body>
+
 </html>
