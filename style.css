@@ -9,7 +9,7 @@ html {
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
 }
-a {
+a{
 	text-decoration: none;
 }
 .container {
@@ -283,6 +283,8 @@ p {
 	flex-wrap: wrap;
 	margin-top: 50px;
 }
+
+
 #services .service-item {
 	flex-basis: 80%;
 	display: flex;
